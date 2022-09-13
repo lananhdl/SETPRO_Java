@@ -1,28 +1,4 @@
 package Lession2;
-/*import java.util.Scanner;
-public class lap2_1 {
-    public static float calculateBMI(float weight, float height) {
-        return (float) (weight / (Math.pow((height), 2)));
-    }
-    public static void main(String[] args) {
-         Scanner scanner = new Scanner(System.in);
-         float height = scanner.nextFloat();
-         float weight = scanner.nextFloat();
-         final float    NORMAL_WEIGHT_MIN = 18.5f,
-                NORMAL_WEIGHT_MAX = 24.9f,
-                OVER_WEIGHT_MIN = 25.0f,
-                OVER_WEIGHT_MAX = 29.9f,
-                OBESITY = 30;
-        System.out.println("Please input the height: ");
-        System.out.println(height);
-        System.out.println("Please input the weight: ");
-        System.out.println(weight);
-        System.out.println("BMI is: ");
-        System.out.println(calculateBMI( weight,height)) ;
-
-    }
-    }*/
-import java.text.DecimalFormat;
 import java.util.Scanner;
 public class lap2_1 {
     public static Scanner scanner = new Scanner(System.in);
