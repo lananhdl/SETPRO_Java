@@ -42,7 +42,7 @@ System.out.print(" The array is ");
     }
 
     public static void main(String[] args) {
-        System.out.print("Input the arrayLenght: ");
+        System.out.print("Input the arrayLength: ");
        int n= scanner.nextInt();
         inputArray(n);
 
