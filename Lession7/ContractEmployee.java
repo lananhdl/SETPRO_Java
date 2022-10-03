@@ -1,6 +1,6 @@
-package Lession8_1;
+package Lession7;
 
-public class contractEmployee extends employee {
+public class ContractEmployee extends Employee {
     @Override
     public int getSalary() {
         return 4000;

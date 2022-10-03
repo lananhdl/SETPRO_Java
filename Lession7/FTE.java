@@ -1,6 +1,6 @@
-package Lession8_1;
+package Lession7;
 
-public class fte extends employee {
+public class FTE extends Employee {
 
     @Override
     public int getSalary() {

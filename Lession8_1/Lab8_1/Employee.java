@@ -1,14 +1,14 @@
-package Lession8_1;
+package Lession8_1.Lab8_1;
 
-public class employee {
+public class Employee {
     protected String employeeType;
     protected int salary;
 
-    public employee() {
+    public Employee() {
 
     }
 
-    public employee(String employeeType, int salary) {
+    public Employee(String employeeType, int salary) {
         this.employeeType = employeeType;
         this.salary = salary;
     }
@@ -28,7 +28,7 @@ public class employee {
 
     @Override
     public String toString() {
-        return "employee{" +
+        return "Employee{" +
                 "employeeType='" + employeeType + '\'' +
                 ", salary=" + salary +
                 '}';
