@@ -1,4 +1,4 @@
-package Lession8_1.Lab8_2;
+package Lession8.Lab8_2;
 
 import java.security.SecureRandom;
 import java.util.ArrayList;

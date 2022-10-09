@@ -1,4 +1,4 @@
-package Lession8_1.Lab8_1;
+package Lession8.Lab8_1;
 
 public class ContractEmployee extends Employee {
     @Override
