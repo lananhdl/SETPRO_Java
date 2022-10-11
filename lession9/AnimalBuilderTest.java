@@ -24,14 +24,14 @@ public class AnimalBuilderTest {
                         .setSpeeds(scanner.nextInt())
                         .setFlyable(getRandomBoolean());
                 AnimalBuider animal = builder.build();
-                System.out.println("animal: " + animal.getName() + " " + animal.getSpeeds() + " " + animal.getFlyable());
+                System.out.println("animal name: " + animal.getName() + " , Speed: " + animal.getSpeeds() + " , Wing: " + animal.getFlyable());
                 if (animal.getFlyable() == true) {
                     animalList.add(animal.getName());
                     animalSpeedList.add(animal.getSpeeds());
                 }
             }
             if (animalSpeedList.size() == 0) {
-                System.out.println("No any animal can fly");
+                System.out.println("No any animal winner because can fly");
             } else {
                 int maxValue = 0;
                 int index = 0;
