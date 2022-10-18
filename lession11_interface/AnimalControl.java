@@ -15,11 +15,14 @@ public class AnimalControl {
         List<MoveAble> animalWinner = Arrays.asList(dog, horse, tiger);
         List<FlyAble> flyAbles = new ArrayList<>();
     }
-    public void animalWinner(List<lession10.Animal> animalList) {
+
+
+
+    public void animalWinner(List<Animal> animalList) {
         ArrayList<Integer> animalSpeedList = new ArrayList<>();
         ArrayList<String> animalNameList = new ArrayList<>();
-        lession10.Animal winner = animalList.get(0);
-        for (lession10.Animal animals : animalList) {
+        Animal winner = animalList.get(0);
+        for (Animal animals : animalList) {
             String name= animals.getName();
             int speed= animals.getSpeed();
             animalSpeedList.add(speed);
