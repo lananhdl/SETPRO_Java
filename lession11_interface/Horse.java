@@ -10,7 +10,7 @@ public class Horse extends Animal implements MoveAble, FlyAble {
 
     @Override
     public int Speed() {
-        return super.getAnimalSpeed(maxSpeed);
+        return super.getSpeed(maxSpeed);
     }
 
     @Override

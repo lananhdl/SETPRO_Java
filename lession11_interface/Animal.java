@@ -39,7 +39,7 @@ public abstract class Animal implements MoveAble,FlyAble {
     public void setFly(boolean fly) {
         this.fly = fly;
     }
-    public int getAnimalSpeed(int maxSpeed) {
+    public int getSpeed(int maxSpeed) {
         return new SecureRandom().nextInt(maxSpeed);
     }
     @Override
