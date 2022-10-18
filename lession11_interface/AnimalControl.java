@@ -8,14 +8,21 @@ import java.util.Arrays;
 import java.util.List;
 
 public class AnimalControl {
+    List<FlyAble> flyAbles = new ArrayList<>();
     public static void main(String[] args) {
        Animal dog = new Dog(),
          horse = new Horse(),
          tiger = new Tiger();
         List<MoveAble> animalWinner = Arrays.asList(dog, horse, tiger);
-        List<FlyAble> flyAbles = new ArrayList<>();
-    }
 
+    }
+    public void animailAbleMove(List<Animal> animalList) {
+        for (FlyAble animals : animalList) {
+            if (animals.fly() == true) {
+                flyAbles.add(animals);
+            }
+        }
+        }
 
 
     public void animalWinner(List<Animal> animalList) {
