@@ -11,7 +11,7 @@ public class AnimalControl {
          horse = new Horse(),
          tiger = new Tiger();
         List<MoveAble> animalList = Arrays.asList(dog, horse, tiger);
-        List<FlyAble> animalWalk = new ArrayList<>();
+        List<FlyAble> flyAbles = new ArrayList<>();
     }
     public void animalWinner(List<lession10.Animal> animalList) {
         ArrayList<Integer> animalSpeedList = new ArrayList<>();
