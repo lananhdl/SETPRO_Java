@@ -2,7 +2,7 @@ package lession11_interface;
 
 import java.security.SecureRandom;
 
-public abstract class Animal {
+public abstract class Animal implements MoveAble,FlyAble {
     private String name;
     private int speed;
     private boolean fly;
@@ -42,4 +42,10 @@ public abstract class Animal {
     public int getAnimalSpeed(int maxSpeed) {
         return new SecureRandom().nextInt(maxSpeed);
     }
+    @Override
+    public boolean moveAble() {
+        return true;
+    }
+
+
 }

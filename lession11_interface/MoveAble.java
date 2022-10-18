@@ -5,8 +5,8 @@ public interface MoveAble {
          return 0;
      }
     int Speed();
-    default String getAnimalsName(){
-        return getClass().getSimpleName();
+    default String getName(){
+        return getClass().getName();
     }
     boolean moveAble();
 }

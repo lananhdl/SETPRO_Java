@@ -10,7 +10,8 @@ public class AnimalControl {
        Animal dog = new Dog(),
          horse = new Horse(),
          tiger = new Tiger();
-        new AnimalControl().animalWinner(Arrays.asList(dog,horse,tiger));
+        List<MoveAble> animalList = Arrays.asList(dog, horse, tiger);
+        List<FlyAble> animalWalk = new ArrayList<>();
     }
     public void animalWinner(List<lession10.Animal> animalList) {
         ArrayList<Integer> animalSpeedList = new ArrayList<>();
