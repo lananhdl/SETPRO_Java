@@ -1,6 +1,8 @@
 package lession11_interface;
 
 
+import lession10.AnimalTest;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +12,7 @@ public class AnimalControl {
        Animal dog = new Dog(),
          horse = new Horse(),
          tiger = new Tiger();
-        List<MoveAble> animalList = Arrays.asList(dog, horse, tiger);
+        List<MoveAble> animalWinner = Arrays.asList(dog, horse, tiger);
         List<FlyAble> flyAbles = new ArrayList<>();
     }
     public void animalWinner(List<lession10.Animal> animalList) {
