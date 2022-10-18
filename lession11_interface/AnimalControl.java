@@ -7,6 +7,7 @@ import java.util.List;
 
 public class AnimalControl {
     List<FlyAble> flyAbles = new ArrayList<>();
+    List<MoveAble> moveAbles = new ArrayList<>();
     public static void main(String[] args) {
        Animal dog = new Dog(),
          horse = new Horse(),
@@ -22,6 +23,13 @@ public class AnimalControl {
         }
         }
 
+    public void animailAbleMove(List<Animal> animalList) {
+        for (MoveAble animals : animalList) {
+            if (animals.moveAble() == true) {
+                moveAbles.add(animals);
+            }
+        }
+    }
 
 
     public void animalWinner(List<Animal> animalList) {
